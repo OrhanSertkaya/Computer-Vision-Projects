@@ -4,7 +4,7 @@
 
 Uygulamaya **app.py** dosyasını çalıştırdıktan sonra **"localhost:5000"** adresinden erişebilirsiniz.
 
-#**Port çakışması** yaşarsanız:**app.py** dosyasındaki kod bloğunu istediğiniz port numarası ile değiştirebilirsiniz.<br/>
+#**Port çakışması** yaşarsanız:**app.py** dosyasındaki kod bloğundan "port=4555" ekleyerek istediğiniz port numarası ile değiştirebilirsiniz.<br/>
 `if __name__ == "__main__":`<br/>
     `app.run(port=4555, debug=True)`
 
@@ -24,5 +24,17 @@ Uygulamaya **app.py** dosyasını çalıştırdıktan sonra **"localhost:5000"**
 
 <img src="face_recognition_app/Sample_Images/BradleyCooper2.jpg"  width="500" height="300"/>
 
-###Gerekli kütüphaneler
+###Bağımlılıklar:
  1-Python 3.7.3
+ 
+ 2-Flask
+ 
+ `pip install Flask`
+ 
+ 3-face_recognition
+ 
+ `pip install face_recognition`
+ 
+ 4-opencv
+ 
+ `pip install opencv-python`
