@@ -24,7 +24,7 @@ Uygulamaya **app.py** dosyasını çalıştırdıktan sonra **"localhost:5000"**
 
 <img src="face_recognition_app/Sample_Images/BradleyCooper2.jpg"  width="500" height="300"/>
 
-###Bağımlılıklar:
+### Bağımlılıklar:
  1-Python 3.7.3
  
  2-Flask
